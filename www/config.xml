@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.nime.ongo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>OnGo</name>
+    <name>onGo</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        onGo is an explore by walk around application.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
+    <author email="nime36@hotmail.com" href="">
         PhoneGap Team
     </author>
     <preference name="permissions" value="none" />
