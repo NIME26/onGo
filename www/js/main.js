@@ -60,7 +60,7 @@ function getLocation(location, locationName) {
 		'rankby=distance&' +
 		'location=' + positionLat +  ',' + positionLng +'&' +
 		'sensor=true&' +
-		'key=AIzaSyBf1398TlREIrk8m-qlp1RJpJrSjZYpolY';
+		'key=AIzaSyCf5VSoqr-bkjfvIMWpy25MiKT37VcyX0o';
 	var tempName;
 	var tempAddress;
 	var tempDistance;
@@ -86,7 +86,7 @@ function getAddress(id) {
 	var url = 'https://maps.googleapis.com/maps/api/place/details/json?' +
 		'placeid=' + id + '&' +
 		'sensor=true&' +
-		'key=AIzaSyBf1398TlREIrk8m-qlp1RJpJrSjZYpolY';
+		'key=AIzaSyCf5VSoqr-bkjfvIMWpy25MiKT37VcyX0o';
 	
 	$.getJSON(url, function(address) {
 		result = address.result.formatted_address;
