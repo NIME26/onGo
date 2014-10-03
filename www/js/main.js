@@ -29,6 +29,8 @@ function doWhenBothFrameworksLoaded() {
 	navigator.geolocation.getCurrentPosition(onSuccess, onError);
 	//document.addEventListener("resume", onResume, false);
 	
+	$("#content").append("test");
+	
 	$("#refreshButton").on("tap", function() {
 		$("#mainListView").empty();
 		searchLocation();
@@ -140,7 +142,7 @@ function createListView(pName, pAddress, distance, locationName) {
 function onSuccess(position) {
 	positionLat =  position.coords.latitude;
 	positionLng = position.coords.longitude;
-	searchLocation();
+	//searchLocation();
 	
 }
 
